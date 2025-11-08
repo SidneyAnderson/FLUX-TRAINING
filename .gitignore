@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# CUDA compilation
+*.o
+*.a
+*.so
+*.dylib
+*.out
+*.ptx
+*.cubin
+
+# Training outputs
+output/
+logs/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+
+# Dataset (user-specific)
+dataset/
+!dataset/.gitkeep
+
+# Models (large files)
+models/
+!models/.gitkeep
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Build artifacts
+sd-scripts/
+*.patch.applied
+
+# Cache
+.cache/
+*.pyc
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# System
+.directory
+desktop.ini
